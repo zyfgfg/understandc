@@ -15,7 +15,7 @@ int main(int argc, char const *argv[]) {
     y = (rand() % 3) + 1;
     
         puts("请输入：1.剪刀2.石头3.布");
-    scanf("%d", &x);
+        scanf("%d", &x);
 
         if (x == 3 && y  == 1) {
             puts("你输入的是布。\n计算机输入的是剪刀。\n计算机赢");
